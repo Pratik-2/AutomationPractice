@@ -1,0 +1,662 @@
+{
+  "uid" : "b2d9b56635383dd5",
+  "name" : "As a user, I want to log in",
+  "fullName" : "The Internet automation Website.As a user, I want to log in",
+  "historyId" : "c5925cde32f086cf49a7a61e7c26bb25",
+  "time" : {
+    "start" : 1633983515486,
+    "stop" : 1633983533388,
+    "duration" : 17902
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+      "time" : {
+        "start" : 1633983515492,
+        "stop" : 1633983525629,
+        "duration" : 10137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I click on login module",
+      "time" : {
+        "start" : 1633983525629,
+        "stop" : 1633983526949,
+        "duration" : 1320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter valid tom41smith@gmail.com",
+      "time" : {
+        "start" : 1633983526950,
+        "stop" : 1633983528002,
+        "duration" : 1052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I click on create account button",
+      "time" : {
+        "start" : 1633983528002,
+        "stop" : 1633983528117,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I login with Tom, Smith",
+      "time" : {
+        "start" : 1633983528117,
+        "stop" : 1633983530226,
+        "duration" : 2109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter TomSmith, Mumbai and Mumbai",
+      "time" : {
+        "start" : 1633983530226,
+        "stop" : 1633983530834,
+        "duration" : 608
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter Arizona, 12345, 1234567890, United States",
+      "time" : {
+        "start" : 1633983530834,
+        "stop" : 1633983531519,
+        "duration" : 685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on register button",
+      "time" : {
+        "start" : 1633983531519,
+        "stop" : 1633983533307,
+        "duration" : 1788
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then validate the Name of user is same as display",
+      "time" : {
+        "start" : 1633983533307,
+        "stop" : 1633983533384,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I want to log in"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7c5d701546a8e46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633983329986,
+        "stop" : 1633983350073,
+        "duration" : 20087
+      }
+    }, {
+      "uid" : "7988062583729c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633983082857,
+        "stop" : 1633983102619,
+        "duration" : 19762
+      }
+    }, {
+      "uid" : "d13b852691ccde57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633982496970,
+        "stop" : 1633982519191,
+        "duration" : 22221
+      }
+    }, {
+      "uid" : "8ea78d364241c836",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633982138005,
+        "stop" : 1633982182271,
+        "duration" : 44266
+      }
+    }, {
+      "uid" : "b05cc157d5f08a94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633981975167,
+        "stop" : 1633981995502,
+        "duration" : 20335
+      }
+    }, {
+      "uid" : "b4494dd878bc0462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633981518761,
+        "stop" : 1633981536338,
+        "duration" : 17577
+      }
+    }, {
+      "uid" : "ea12ee598820655a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633981244864,
+        "stop" : 1633981264542,
+        "duration" : 19678
+      }
+    }, {
+      "uid" : "afee1e80225d8094",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633979253582,
+        "stop" : 1633979273591,
+        "duration" : 20009
+      }
+    }, {
+      "uid" : "5e9b9856ef33d181",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633978685509,
+        "stop" : 1633978706272,
+        "duration" : 20763
+      }
+    }, {
+      "uid" : "ddf68eba3d6f72be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633974771068,
+        "stop" : 1633974796226,
+        "duration" : 25158
+      }
+    }, {
+      "uid" : "daa2c234d59dfb20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633974520382,
+        "stop" : 1633974548147,
+        "duration" : 27765
+      }
+    }, {
+      "uid" : "a71e29aca6620dda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633974315769,
+        "stop" : 1633974339710,
+        "duration" : 23941
+      }
+    }, {
+      "uid" : "afb9f9fae8746140",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633973821028,
+        "stop" : 1633973845495,
+        "duration" : 24467
+      }
+    }, {
+      "uid" : "1aa735fd778d4dff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633962658056,
+        "stop" : 1633962681382,
+        "duration" : 23326
+      }
+    }, {
+      "uid" : "32782d8b2968ba19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633959541950,
+        "stop" : 1633959564096,
+        "duration" : 22146
+      }
+    }, {
+      "uid" : "7d2224a73d0b7707",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633959015109,
+        "stop" : 1633959037028,
+        "duration" : 21919
+      }
+    }, {
+      "uid" : "b79888a251f7b585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633958107472,
+        "stop" : 1633958126943,
+        "duration" : 19471
+      }
+    }, {
+      "uid" : "124512df3c83f670",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633957182259,
+        "stop" : 1633957200158,
+        "duration" : 17899
+      }
+    }, {
+      "uid" : "61381c39a229ef8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633957064645,
+        "stop" : 1633957082993,
+        "duration" : 18348
+      }
+    }, {
+      "uid" : "11adf914ea4d510c",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='customer_firstname']\" because element wasn't found",
+      "time" : {
+        "start" : 1633956877580,
+        "stop" : 1633956897769,
+        "duration" : 20189
+      }
+    }, {
+      "uid" : "5fb4e6543a68ddee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633956701498,
+        "stop" : 1633956722313,
+        "duration" : 20815
+      }
+    }, {
+      "uid" : "934a18aef99997ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633956189159,
+        "stop" : 1633956210802,
+        "duration" : 21643
+      }
+    }, {
+      "uid" : "db4ed54dc35f4916",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633955725586,
+        "stop" : 1633955752837,
+        "duration" : 27251
+      }
+    }, {
+      "uid" : "a8289bcfcfa7b6d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633955525668,
+        "stop" : 1633955548003,
+        "duration" : 22335
+      }
+    }, {
+      "uid" : "f472d5c69ecf5263",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633955312780,
+        "stop" : 1633955337302,
+        "duration" : 24522
+      }
+    }, {
+      "uid" : "8f50b00ec81fefa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633955056462,
+        "stop" : 1633955079935,
+        "duration" : 23473
+      }
+    }, {
+      "uid" : "ca59dba4ea926041",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633954932034,
+        "stop" : 1633954953434,
+        "duration" : 21400
+      }
+    }, {
+      "uid" : "3a886e8e9012725a",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='email_create']\" because element wasn't found",
+      "time" : {
+        "start" : 1633954732272,
+        "stop" : 1633954753709,
+        "duration" : 21437
+      }
+    }, {
+      "uid" : "78874a5a081b3edd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633953709858,
+        "stop" : 1633953750509,
+        "duration" : 40651
+      }
+    }, {
+      "uid" : "b181083e8c8c322",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633953413217,
+        "stop" : 1633953444413,
+        "duration" : 31196
+      }
+    }, {
+      "uid" : "54ce2711bc78c54e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633953271065,
+        "stop" : 1633953290242,
+        "duration" : 19177
+      }
+    }, {
+      "uid" : "b7f22b6b40aad7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633953031966,
+        "stop" : 1633953063434,
+        "duration" : 31468
+      }
+    }, {
+      "uid" : "553228f5698d0194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633952631615,
+        "stop" : 1633952662038,
+        "duration" : 30423
+      }
+    }, {
+      "uid" : "80e768da7cfc27e4",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"//a[contains(text(),'Sign in')]\" because element wasn't found",
+      "time" : {
+        "start" : 1633951766194,
+        "stop" : 1633951778155,
+        "duration" : 11961
+      }
+    }, {
+      "uid" : "8e92d1c8dd616474",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633951340077,
+        "stop" : 1633951365929,
+        "duration" : 25852
+      }
+    }, {
+      "uid" : "33f19c64e47fb07c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633950191500,
+        "stop" : 1633950216401,
+        "duration" : 24901
+      }
+    }, {
+      "uid" : "18d8ec8fca8b92ab",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='email_create']\" because element wasn't found",
+      "time" : {
+        "start" : 1633949861805,
+        "stop" : 1633949891524,
+        "duration" : 29719
+      }
+    }, {
+      "uid" : "3defe4380caac915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633949315063,
+        "stop" : 1633949338164,
+        "duration" : 23101
+      }
+    }, {
+      "uid" : "c695c31ddfffdfa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633948180775,
+        "stop" : 1633948203226,
+        "duration" : 22451
+      }
+    }, {
+      "uid" : "c5567d4a44ee15c6",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='customer_firstname']\" because element wasn't found",
+      "time" : {
+        "start" : 1633948107944,
+        "stop" : 1633948132888,
+        "duration" : 24944
+      }
+    }, {
+      "uid" : "2f6fd4ac79e620b6",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='customer_firstname']\" because element wasn't found",
+      "time" : {
+        "start" : 1633947984104,
+        "stop" : 1633948006790,
+        "duration" : 22686
+      }
+    }, {
+      "uid" : "980c488c332b0466",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633947328185,
+        "stop" : 1633947346957,
+        "duration" : 18772
+      }
+    }, {
+      "uid" : "40c073cc23452ae8",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='customer_firstname']\" because element wasn't found",
+      "time" : {
+        "start" : 1633947170613,
+        "stop" : 1633947196200,
+        "duration" : 25587
+      }
+    }, {
+      "uid" : "4a953112435a312e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633935927852,
+        "stop" : 1633935948850,
+        "duration" : 20998
+      }
+    }, {
+      "uid" : "c8529d3f6036a72f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633935446080,
+        "stop" : 1633935462506,
+        "duration" : 16426
+      }
+    }, {
+      "uid" : "97a1d93a8e1b88ca",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='customer_firstname']\" because element wasn't found",
+      "time" : {
+        "start" : 1633935383236,
+        "stop" : 1633935406377,
+        "duration" : 23141
+      }
+    }, {
+      "uid" : "517fc8df0a60bdbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633935195004,
+        "stop" : 1633935215831,
+        "duration" : 20827
+      }
+    }, {
+      "uid" : "188e4d76668bce0c",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id='customer_firstname']\" because element wasn't found",
+      "time" : {
+        "start" : 1633935111131,
+        "stop" : 1633935135593,
+        "duration" : 24462
+      }
+    }, {
+      "uid" : "a12a651861c651ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633934853797,
+        "stop" : 1633934871361,
+        "duration" : 17564
+      }
+    }, {
+      "uid" : "be5acd2d4fe044e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633934636884,
+        "stop" : 1633934645633,
+        "duration" : 8749
+      }
+    }, {
+      "uid" : "9de6869ea356d315",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633934383915,
+        "stop" : 1633934394210,
+        "duration" : 10295
+      }
+    }, {
+      "uid" : "e885a5d04c6ef8ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633933766321,
+        "stop" : 1633933775620,
+        "duration" : 9299
+      }
+    }, {
+      "uid" : "ba1e056d6f995fda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633932765958,
+        "stop" : 1633932773234,
+        "duration" : 7276
+      }
+    }, {
+      "uid" : "92681146949297e1",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`//span[contains(text(),'Tom')]`) to have text",
+      "time" : {
+        "start" : 1633932626022,
+        "stop" : 1633932648161,
+        "duration" : 22139
+      }
+    }, {
+      "uid" : "39788d76f62c99ac",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`//span[contains(text(),'Tom')]`) to have text",
+      "time" : {
+        "start" : 1633932340879,
+        "stop" : 1633932363154,
+        "duration" : 22275
+      }
+    }, {
+      "uid" : "488f7547973d6e3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633928234522,
+        "stop" : 1633928258338,
+        "duration" : 23816
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2d9b56635383dd5.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

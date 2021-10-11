@@ -1,0 +1,161 @@
+{
+  "uid" : "a1792d0946f4862f",
+  "name" : "As a user, I want to place order",
+  "fullName" : "The Internet automation Website.As a user, I want to place order",
+  "historyId" : "c1afc1e66845a14e346d8a8f59232a4a",
+  "time" : {
+    "start" : 1633973845497,
+    "stop" : 1633973862797,
+    "duration" : 17300
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: element (\"//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]/span[1]\") still not clickable after 10000ms",
+  "statusTrace" : "Error: element (\"//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]/span[1]\") still not clickable after 10000ms\n                    at C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: element (\"//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]/span[1]\") still not clickable after 10000ms",
+    "statusTrace" : "Error: element (\"//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]/span[1]\") still not clickable after 10000ms\n                    at C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+      "time" : {
+        "start" : 1633973845499,
+        "stop" : 1633973849114,
+        "duration" : 3615
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I select product",
+      "time" : {
+        "start" : 1633973849114,
+        "stop" : 1633973852664,
+        "duration" : 3550
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When checking summary proceed",
+      "time" : {
+        "start" : 1633973852665,
+        "stop" : 1633973862794,
+        "duration" : 10129
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]/span[1]\") still not clickable after 10000ms\n                    at C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\commands\\browser\\waitUntil.js:66:23\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:24:32)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And checking address proceed",
+      "time" : {
+        "start" : 1633973862798,
+        "stop" : 1633973862802,
+        "duration" : 4
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And checking shipping proceed",
+      "time" : {
+        "start" : 1633973862802,
+        "stop" : 1633973862803,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I validate the product",
+      "time" : {
+        "start" : 1633973862804,
+        "stop" : 1633973862804,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I want to place order"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1792d0946f4862f.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

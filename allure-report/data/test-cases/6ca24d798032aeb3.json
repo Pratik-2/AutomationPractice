@@ -1,0 +1,239 @@
+{
+  "uid" : "6ca24d798032aeb3",
+  "name" : "And I enter valid tom6smith@gmail.com",
+  "fullName" : "The Internet automation Website: As a user, I want to log in.And I enter valid tom6smith@gmail.com",
+  "historyId" : "54a19f1ac3962e273b742af1e38cda49",
+  "time" : {
+    "start" : 1633926801208,
+    "stop" : 1633926802630,
+    "duration" : 1422
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633926801219,
+        "stop" : 1633926801275,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4074d53b5f9eb5",
+        "name" : "Request",
+        "source" : "b4074d53b5f9eb5.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "34162d7496b01727",
+        "name" : "Response",
+        "source" : "34162d7496b01727.json",
+        "type" : "application/json",
+        "size" : 1005
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1633926801287,
+        "stop" : 1633926801337,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cb85543a6216544e",
+        "name" : "Request",
+        "source" : "cb85543a6216544e.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "2aad301bdab7929a",
+        "name" : "Response",
+        "source" : "2aad301bdab7929a.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1633926801789,
+        "stop" : 1633926801867,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aee9ee540b21749",
+        "name" : "Request",
+        "source" : "aee9ee540b21749.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "6a79bcb94b81f961",
+        "name" : "Response",
+        "source" : "6a79bcb94b81f961.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1633926802289,
+        "stop" : 1633926802397,
+        "duration" : 108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9fdb337e7cd99b2d",
+        "name" : "Request",
+        "source" : "9fdb337e7cd99b2d.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "4b49e0a8bc4e7c3b",
+        "name" : "Response",
+        "source" : "4b49e0a8bc4e7c3b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633926802402,
+        "stop" : 1633926802432,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8263f48e12b77971",
+        "name" : "Request",
+        "source" : "8263f48e12b77971.json",
+        "type" : "application/json",
+        "size" : 64
+      }, {
+        "uid" : "3e6bd8cf95e45f70",
+        "name" : "Response",
+        "source" : "3e6bd8cf95e45f70.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/a4e111ad-717a-4739-96ce-1644fd58214b/clear",
+      "time" : {
+        "start" : 1633926802437,
+        "stop" : 1633926802495,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/a4e111ad-717a-4739-96ce-1644fd58214b/value",
+      "time" : {
+        "start" : 1633926802501,
+        "stop" : 1633926802630,
+        "duration" : 129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3a2ea2e92161e113",
+        "name" : "Request",
+        "source" : "3a2ea2e92161e113.json",
+        "type" : "application/json",
+        "size" : 35
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testMethod",
+    "value" : "And I enter valid tom6smith@gmail.com"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ca24d798032aeb3.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

@@ -1,0 +1,201 @@
+{
+  "uid" : "d13b852691ccde57",
+  "name" : "As a user, I want to log in",
+  "fullName" : "The Internet automation Website.As a user, I want to log in",
+  "historyId" : "c5925cde32f086cf49a7a61e7c26bb25",
+  "time" : {
+    "start" : 1633982496970,
+    "stop" : 1633982519191,
+    "duration" : 22221
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+      "time" : {
+        "start" : 1633982496980,
+        "stop" : 1633982508709,
+        "duration" : 11729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I click on login module",
+      "time" : {
+        "start" : 1633982508709,
+        "stop" : 1633982510727,
+        "duration" : 2018
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter valid tom38smith@gmail.com",
+      "time" : {
+        "start" : 1633982510727,
+        "stop" : 1633982512248,
+        "duration" : 1521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When I click on create account button",
+      "time" : {
+        "start" : 1633982512248,
+        "stop" : 1633982512345,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I login with Tom, Smith",
+      "time" : {
+        "start" : 1633982512345,
+        "stop" : 1633982514945,
+        "duration" : 2600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter TomSmith, Mumbai and Mumbai",
+      "time" : {
+        "start" : 1633982514945,
+        "stop" : 1633982515602,
+        "duration" : 657
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I enter Arizona, 12345, 1234567890, United States",
+      "time" : {
+        "start" : 1633982515602,
+        "stop" : 1633982516206,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And I click on register button",
+      "time" : {
+        "start" : 1633982516206,
+        "stop" : 1633982519097,
+        "duration" : 2891
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then validate the Name of user is same as display",
+      "time" : {
+        "start" : 1633982519097,
+        "stop" : 1633982519189,
+        "duration" : 92
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I want to log in"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d13b852691ccde57.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

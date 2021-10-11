@@ -1,0 +1,181 @@
+{
+  "uid" : "f962a92499ffef82",
+  "name" : "As a user, I want to place order",
+  "fullName" : "The Internet automation Website.As a user, I want to place order",
+  "historyId" : "c1afc1e66845a14e346d8a8f59232a4a",
+  "time" : {
+    "start" : 1633949338165,
+    "stop" : 1633949340273,
+    "duration" : 2108
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+    "statusTrace" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+    "steps" : [ {
+      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+      "time" : {
+        "start" : 1633949338165,
+        "stop" : 1633949340270,
+        "duration" : 2105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I am on the Home page",
+      "time" : {
+        "start" : 1633949340270,
+        "stop" : 1633949340271,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "When I select product",
+      "time" : {
+        "start" : 1633949340271,
+        "stop" : 1633949340272,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And checking summary proceed",
+      "time" : {
+        "start" : 1633949340272,
+        "stop" : 1633949340272,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And checking address proceed",
+      "time" : {
+        "start" : 1633949340272,
+        "stop" : 1633949340272,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And checking shipping proceed",
+      "time" : {
+        "start" : 1633949340272,
+        "stop" : 1633949340273,
+        "duration" : 1
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "Then I validate the product",
+      "time" : {
+        "start" : 1633949340273,
+        "stop" : 1633949340273,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "Step \"I validate the product\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\Admin\\source\\repos\\Newtest\\features\\log.feature):1:1\n                \tat Scenario(As a user, I want to place order):21:1\n                \tat Step(I validate the product):27:5\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I want to place order"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f962a92499ffef82.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

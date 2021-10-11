@@ -1,0 +1,161 @@
+{
+  "uid" : "2bc0881746db8540",
+  "name" : "As a user, I want to place order",
+  "fullName" : "The Internet automation Website.As a user, I want to place order",
+  "historyId" : "c1afc1e66845a14e346d8a8f59232a4a",
+  "time" : {
+    "start" : 1633981264543,
+    "stop" : 1633981276481,
+    "duration" : 11938
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Error: Can't call click on element with selector \"(//span[contains(text(),'Proceed to checkout')])[2]\" because element wasn't found",
+  "statusTrace" : "Error: Can't call click on element with selector \"(//span[contains(text(),'Proceed to checkout')])[2]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Error: Can't call click on element with selector \"(//span[contains(text(),'Proceed to checkout')])[2]\" because element wasn't found",
+    "statusTrace" : "Error: Can't call click on element with selector \"(//span[contains(text(),'Proceed to checkout')])[2]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+    "steps" : [ {
+      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+      "time" : {
+        "start" : 1633981264543,
+        "stop" : 1633981266156,
+        "duration" : 1613
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I select product",
+      "time" : {
+        "start" : 1633981266156,
+        "stop" : 1633981266302,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When checking summary proceed",
+      "time" : {
+        "start" : 1633981266302,
+        "stop" : 1633981276481,
+        "duration" : 10179
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Can't call click on element with selector \"(//span[contains(text(),'Proceed to checkout')])[2]\" because element wasn't found\n                    at Object.implicitWait [as default] (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\utils\\implicitWait.js:34:19)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\webdriverio\\build\\middlewares.js:20:29)\n                    at async Element.wrapCommandFn (C:\\Users\\Admin\\source\\repos\\Newtest\\node_modules\\@wdio\\utils\\build\\shim.js:131:29)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And checking address proceed",
+      "time" : {
+        "start" : 1633981276481,
+        "stop" : 1633981276482,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And checking shipping proceed",
+      "time" : {
+        "start" : 1633981276482,
+        "stop" : 1633981276482,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I validate the product",
+      "time" : {
+        "start" : 1633981276482,
+        "stop" : 1633981276482,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I want to place order"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2bc0881746db8540.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

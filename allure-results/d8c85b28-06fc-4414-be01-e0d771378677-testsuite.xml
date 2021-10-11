@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633983329894' stop='1633983363573'>
+    <name>The Internet automation Website</name>
+    <title>The Internet automation Website</title>
+    <test-cases>
+        <test-case start='1633983329986' status='passed' stop='1633983350073'>
+            <name>As a user, I want to log in</name>
+            <title>As a user, I want to log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633983329998' status='passed' stop='1633983341028'>
+                    <name>Given I am on the Home page "http://automationpractice.com/index.php"</name>
+                    <title>Given I am on the Home page "http://automationpractice.com/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983341028' status='passed' stop='1633983342440'>
+                    <name>Given I click on login module</name>
+                    <title>Given I click on login module</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983342440' status='passed' stop='1633983343928'>
+                    <name>And I enter valid tom40smith@gmail.com</name>
+                    <title>And I enter valid tom40smith@gmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983343928' status='passed' stop='1633983344039'>
+                    <name>When I click on create account button</name>
+                    <title>When I click on create account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983344039' status='passed' stop='1633983346599'>
+                    <name>And I login with Tom, Smith</name>
+                    <title>And I login with Tom, Smith</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983346599' status='passed' stop='1633983347288'>
+                    <name>And I enter TomSmith, Mumbai and Mumbai</name>
+                    <title>And I enter TomSmith, Mumbai and Mumbai</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983347288' status='passed' stop='1633983347791'>
+                    <name>And I enter Arizona, 12345, 1234567890, United States</name>
+                    <title>And I enter Arizona, 12345, 1234567890, United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983347791' status='passed' stop='1633983349957'>
+                    <name>And I click on register button</name>
+                    <title>And I click on register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983349958' status='passed' stop='1633983350072'>
+                    <name>Then validate the Name of user is same as display</name>
+                    <title>Then validate the Name of user is same as display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633983350074' status='broken' stop='1633983363558'>
+            <name>As a user, I want to place order</name>
+            <title>As a user, I want to place order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633983350075' status='passed' stop='1633983353305'>
+                    <name>Given I am on the Home page "http://automationpractice.com/index.php"</name>
+                    <title>Given I am on the Home page "http://automationpractice.com/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983353305' status='passed' stop='1633983353427'>
+                    <name>Given I select product</name>
+                    <title>Given I select product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983353427' status='broken' stop='1633983363557'>
+                    <name>When checking summary proceed</name>
+                    <title>When checking summary proceed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983363559' status='canceled' stop='1633983363560'>
+                    <name>And checking address proceed</name>
+                    <title>And checking address proceed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983363561' status='canceled' stop='1633983363561'>
+                    <name>And checking shipping proceed</name>
+                    <title>And checking shipping proceed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633983363561' status='canceled' stop='1633983363562'>
+                    <name>Then I validate the product</name>
+                    <title>Then I validate the product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "a[class='button btn btn-default standard-checkout button-medium'] span" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "a[class='button btn btn-default standard-checkout button-medium'] span" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\Admin\source\repos\Newtest\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Admin\source\repos\Newtest\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633955725507' stop='1633955771443'>
+    <name>The Internet automation Website</name>
+    <title>The Internet automation Website</title>
+    <test-cases>
+        <test-case start='1633955725586' status='passed' stop='1633955752837'>
+            <name>As a user, I want to log in</name>
+            <title>As a user, I want to log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633955725597' status='passed' stop='1633955736161'>
+                    <name>Given I am on the Home page "http://automationpractice.com/index.php"</name>
+                    <title>Given I am on the Home page "http://automationpractice.com/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955736161' status='passed' stop='1633955742465'>
+                    <name>Given I click on login module</name>
+                    <title>Given I click on login module</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955742465' status='passed' stop='1633955742757'>
+                    <name>And I enter valid tom19smith@gmail.com</name>
+                    <title>And I enter valid tom19smith@gmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955742757' status='passed' stop='1633955742902'>
+                    <name>When I click on create account button</name>
+                    <title>When I click on create account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955742902' status='passed' stop='1633955745532'>
+                    <name>And I login with Tom, Smith</name>
+                    <title>And I login with Tom, Smith</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955745533' status='passed' stop='1633955746362'>
+                    <name>And I enter TomSmith, Mumbai and Mumbai</name>
+                    <title>And I enter TomSmith, Mumbai and Mumbai</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955746362' status='passed' stop='1633955747148'>
+                    <name>And I enter Arizona, 12345, 1234567890, United States</name>
+                    <title>And I enter Arizona, 12345, 1234567890, United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955747148' status='passed' stop='1633955752694'>
+                    <name>And I click on register button</name>
+                    <title>And I click on register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955752694' status='passed' stop='1633955752835'>
+                    <name>Then validate the Name of user is same as display</name>
+                    <title>Then validate the Name of user is same as display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1633955752838' status='broken' stop='1633955771421'>
+            <name>As a user, I want to place order</name>
+            <title>As a user, I want to place order</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633955752839' status='passed' stop='1633955757143'>
+                    <name>Given I am on the Home page "http://automationpractice.com/index.php"</name>
+                    <title>Given I am on the Home page "http://automationpractice.com/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955757143' status='passed' stop='1633955761276'>
+                    <name>Given I select product</name>
+                    <title>Given I select product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955761277' status='broken' stop='1633955771421'>
+                    <name>When checking summary proceed</name>
+                    <title>When checking summary proceed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955771422' status='canceled' stop='1633955771427'>
+                    <name>And checking address proceed</name>
+                    <title>And checking address proceed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955771427' status='canceled' stop='1633955771428'>
+                    <name>And checking shipping proceed</name>
+                    <title>And checking shipping proceed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633955771430' status='canceled' stop='1633955771432'>
+                    <name>Then I validate the product</name>
+                    <title>Then I validate the product</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]/span[1]") still not displayed after 10000ms</message>
+                <stack-trace>Error: element ("//body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[4]/div[1]/div[2]/div[4]/a[1]/span[1]") still not displayed after 10000ms
+                    at C:\Users\Admin\source\repos\Newtest\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Admin\source\repos\Newtest\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.wrapCommandFn (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\shim.js:131:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Admin\source\repos\Newtest\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

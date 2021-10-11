@@ -1,0 +1,161 @@
+{
+  "uid" : "9fdae01d00006f9c",
+  "name" : "As a user, I want to place order",
+  "fullName" : "The Internet automation Website.As a user, I want to place order",
+  "historyId" : "c1afc1e66845a14e346d8a8f59232a4a",
+  "time" : {
+    "start" : 1633983102619,
+    "stop" : 1633983110344,
+    "duration" : 7725
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <img class=\"replace-2x img-responsive\" src=\"http://automationpractice.com/img/p/1/1-home_default.jpg\" alt=\"Faded Short Sleeve T-shirts\" title=\"Faded Short Sleeve T-shirts\" width=\"250\" height=\"250\" itemprop=\"image\"> is not clickable at point (309, 582). Other element would receive the click: <span>...</span>",
+  "statusTrace" : "element click intercepted: Element <img class=\"replace-2x img-responsive\" src=\"http://automationpractice.com/img/p/1/1-home_default.jpg\" alt=\"Faded Short Sleeve T-shirts\" title=\"Faded Short Sleeve T-shirts\" width=\"250\" height=\"250\" itemprop=\"image\"> is not clickable at point (309, 582). Other element would receive the click: <span>...</span>\n                  (Session info: chrome=94.0.4606.71)\n                Backtrace:\n                \tOrdinal0 [0x0113BDE3+2473443]\n                \tOrdinal0 [0x010D6661+2057825]\n                \tOrdinal0 [0x00FE2438+1057848]\n                \tOrdinal0 [0x010127B9+1255353]\n                \tOrdinal0 [0x01010AE0+1247968]\n                \tOrdinal0 [0x0100E8AD+1239213]\n                \tOrdinal0 [0x0100D701+1234689]\n                \tOrdinal0 [0x01003567+1193319]\n                \tOrdinal0 [0x010256E3+1332963]\n                \tOrdinal0 [0x01003386+1192838]\n                \tOrdinal0 [0x010257CA+1333194]\n                \tOrdinal0 [0x01034ABF+1395391]\n                \tOrdinal0 [0x010255AB+1332651]\n                \tOrdinal0 [0x01002104+1188100]\n                \tOrdinal0 [0x01002F59+1191769]\n                \tGetHandleVerifier [0x012C2266+1549718]\n                \tGetHandleVerifier [0x0136D4A7+2250711]\n                \tGetHandleVerifier [0x011C718B+521403]\n                \tGetHandleVerifier [0x011C6229+517465]\n                \tOrdinal0 [0x010DB79D+2078621]\n                \tOrdinal0 [0x010DFB58+2095960]\n                \tOrdinal0 [0x010DFC92+2096274]\n                \tOrdinal0 [0x010E9541+2135361]\n                \tBaseThreadInitThunk [0x7638FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <img class=\"replace-2x img-responsive\" src=\"http://automationpractice.com/img/p/1/1-home_default.jpg\" alt=\"Faded Short Sleeve T-shirts\" title=\"Faded Short Sleeve T-shirts\" width=\"250\" height=\"250\" itemprop=\"image\"> is not clickable at point (309, 582). Other element would receive the click: <span>...</span>",
+    "statusTrace" : "element click intercepted: Element <img class=\"replace-2x img-responsive\" src=\"http://automationpractice.com/img/p/1/1-home_default.jpg\" alt=\"Faded Short Sleeve T-shirts\" title=\"Faded Short Sleeve T-shirts\" width=\"250\" height=\"250\" itemprop=\"image\"> is not clickable at point (309, 582). Other element would receive the click: <span>...</span>\n                  (Session info: chrome=94.0.4606.71)\n                Backtrace:\n                \tOrdinal0 [0x0113BDE3+2473443]\n                \tOrdinal0 [0x010D6661+2057825]\n                \tOrdinal0 [0x00FE2438+1057848]\n                \tOrdinal0 [0x010127B9+1255353]\n                \tOrdinal0 [0x01010AE0+1247968]\n                \tOrdinal0 [0x0100E8AD+1239213]\n                \tOrdinal0 [0x0100D701+1234689]\n                \tOrdinal0 [0x01003567+1193319]\n                \tOrdinal0 [0x010256E3+1332963]\n                \tOrdinal0 [0x01003386+1192838]\n                \tOrdinal0 [0x010257CA+1333194]\n                \tOrdinal0 [0x01034ABF+1395391]\n                \tOrdinal0 [0x010255AB+1332651]\n                \tOrdinal0 [0x01002104+1188100]\n                \tOrdinal0 [0x01002F59+1191769]\n                \tGetHandleVerifier [0x012C2266+1549718]\n                \tGetHandleVerifier [0x0136D4A7+2250711]\n                \tGetHandleVerifier [0x011C718B+521403]\n                \tGetHandleVerifier [0x011C6229+517465]\n                \tOrdinal0 [0x010DB79D+2078621]\n                \tOrdinal0 [0x010DFB58+2095960]\n                \tOrdinal0 [0x010DFC92+2096274]\n                \tOrdinal0 [0x010E9541+2135361]\n                \tBaseThreadInitThunk [0x7638FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+      "time" : {
+        "start" : 1633983102620,
+        "stop" : 1633983105777,
+        "duration" : 3157
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I select product",
+      "time" : {
+        "start" : 1633983105777,
+        "stop" : 1633983110344,
+        "duration" : 4567
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <img class=\"replace-2x img-responsive\" src=\"http://automationpractice.com/img/p/1/1-home_default.jpg\" alt=\"Faded Short Sleeve T-shirts\" title=\"Faded Short Sleeve T-shirts\" width=\"250\" height=\"250\" itemprop=\"image\"> is not clickable at point (309, 582). Other element would receive the click: <span>...</span>\n                  (Session info: chrome=94.0.4606.71)\n                Backtrace:\n                \tOrdinal0 [0x0113BDE3+2473443]\n                \tOrdinal0 [0x010D6661+2057825]\n                \tOrdinal0 [0x00FE2438+1057848]\n                \tOrdinal0 [0x010127B9+1255353]\n                \tOrdinal0 [0x01010AE0+1247968]\n                \tOrdinal0 [0x0100E8AD+1239213]\n                \tOrdinal0 [0x0100D701+1234689]\n                \tOrdinal0 [0x01003567+1193319]\n                \tOrdinal0 [0x010256E3+1332963]\n                \tOrdinal0 [0x01003386+1192838]\n                \tOrdinal0 [0x010257CA+1333194]\n                \tOrdinal0 [0x01034ABF+1395391]\n                \tOrdinal0 [0x010255AB+1332651]\n                \tOrdinal0 [0x01002104+1188100]\n                \tOrdinal0 [0x01002F59+1191769]\n                \tGetHandleVerifier [0x012C2266+1549718]\n                \tGetHandleVerifier [0x0136D4A7+2250711]\n                \tGetHandleVerifier [0x011C718B+521403]\n                \tGetHandleVerifier [0x011C6229+517465]\n                \tOrdinal0 [0x010DB79D+2078621]\n                \tOrdinal0 [0x010DFB58+2095960]\n                \tOrdinal0 [0x010DFC92+2096274]\n                \tOrdinal0 [0x010E9541+2135361]\n                \tBaseThreadInitThunk [0x7638FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A6E+238]\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "When checking summary proceed",
+      "time" : {
+        "start" : 1633983110345,
+        "stop" : 1633983110345,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And checking address proceed",
+      "time" : {
+        "start" : 1633983110345,
+        "stop" : 1633983110345,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And checking shipping proceed",
+      "time" : {
+        "start" : 1633983110346,
+        "stop" : 1633983110346,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I validate the product",
+      "time" : {
+        "start" : 1633983110346,
+        "stop" : 1633983110346,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I want to place order"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9fdae01d00006f9c.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

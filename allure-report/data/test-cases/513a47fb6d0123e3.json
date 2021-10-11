@@ -1,0 +1,116 @@
+{
+  "uid" : "513a47fb6d0123e3",
+  "name" : "Then validate the Name of user is same as display",
+  "fullName" : "The Internet automation Website: As a user, I want to log in.Then validate the Name of user is same as display",
+  "historyId" : "90a0355096016ee65ddfb257157e4c5",
+  "time" : {
+    "start" : 1633926808986,
+    "stop" : 1633926809091,
+    "duration" : 105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633926808989,
+        "stop" : 1633926809045,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "141fe57abf46156b",
+        "name" : "Request",
+        "source" : "141fe57abf46156b.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "62a9b3d1b894db8c",
+        "name" : "Response",
+        "source" : "62a9b3d1b894db8c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/b3139248-edd6-4a10-91c6-449709246dfc/text",
+      "time" : {
+        "start" : 1633926809050,
+        "stop" : 1633926809086,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a7dc84b0eefb9e9",
+        "name" : "Response",
+        "source" : "8a7dc84b0eefb9e9.json",
+        "type" : "application/json",
+        "size" : 11
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then validate the Name of user is same as display"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "513a47fb6d0123e3.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

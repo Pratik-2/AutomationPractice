@@ -1,0 +1,110 @@
+{
+  "uid" : "eb9b3dafe7ffe7c5",
+  "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+  "fullName" : "The Internet automation Website: As a user, I want to log in.Given I am on the Home page \"http://automationpractice.com/index.php\"",
+  "historyId" : "b06fdda7628137321bf215b2b56363c8",
+  "time" : {
+    "start" : 1633926786608,
+    "stop" : 1633926799613,
+    "duration" : 13005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1633926786626,
+        "stop" : 1633926799423,
+        "duration" : 12797
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8a6138c6ac10ee9",
+        "name" : "Request",
+        "source" : "d8a6138c6ac10ee9.json",
+        "type" : "application/json",
+        "size" : 54
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1633926799423,
+        "stop" : 1633926799607,
+        "duration" : 184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0a343a811f299bf",
+        "name" : "Response",
+        "source" : "f0a343a811f299bf.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am on the Home page \"http://automationpractice.com/index.php\""
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb9b3dafe7ffe7c5.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

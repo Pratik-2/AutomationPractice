@@ -1,0 +1,110 @@
+{
+  "uid" : "555e69f2c888414",
+  "name" : "When I click on create account button",
+  "fullName" : "The Internet automation Website: As a user, I want to log in.When I click on create account button",
+  "historyId" : "999ddf4a9f2cf210b1e7dbaa5ddb6fe9",
+  "time" : {
+    "start" : 1633926802630,
+    "stop" : 1633926802738,
+    "duration" : 108
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1633926802631,
+        "stop" : 1633926802658,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "636a2be46c4d2e7f",
+        "name" : "Request",
+        "source" : "636a2be46c4d2e7f.json",
+        "type" : "application/json",
+        "size" : 135
+      }, {
+        "uid" : "41da81a8b563e30f",
+        "name" : "Response",
+        "source" : "41da81a8b563e30f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/d7985a37-12dd-49c7-9e46-772ab85355e2/click",
+      "time" : {
+        "start" : 1633926802663,
+        "stop" : 1633926802737,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I click on create account button"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "555e69f2c888414.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

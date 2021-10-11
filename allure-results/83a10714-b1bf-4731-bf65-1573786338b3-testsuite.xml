@@ -1,0 +1,92 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633932340790' stop='1633932363171'>
+    <name>The Internet automation Website</name>
+    <title>The Internet automation Website</title>
+    <test-cases>
+        <test-case start='1633932340879' status='failed' stop='1633932363154'>
+            <name>As a user, I want to log in</name>
+            <title>As a user, I want to log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633932340887' status='passed' stop='1633932352880'>
+                    <name>Given I am on the Home page "http://automationpractice.com/index.php"</name>
+                    <title>Given I am on the Home page "http://automationpractice.com/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352881' status='passed' stop='1633932352885'>
+                    <name>And I click on login module</name>
+                    <title>And I click on login module</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352885' status='passed' stop='1633932352890'>
+                    <name>And I enter valid tom7smith@gmail.com</name>
+                    <title>And I enter valid tom7smith@gmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352890' status='passed' stop='1633932352898'>
+                    <name>When I click on create account button</name>
+                    <title>When I click on create account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352898' status='passed' stop='1633932352902'>
+                    <name>And I login with Tom, Smith</name>
+                    <title>And I login with Tom, Smith</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352902' status='passed' stop='1633932352906'>
+                    <name>And I enter TomSmith, Mumbai and Mumbai</name>
+                    <title>And I enter TomSmith, Mumbai and Mumbai</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352906' status='passed' stop='1633932352913'>
+                    <name>And I enter Arizona, 12345, 1234567890, United States</name>
+                    <title>And I enter Arizona, 12345, 1234567890, United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352914' status='passed' stop='1633932352996'>
+                    <name>And I click on register button</name>
+                    <title>And I click on register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633932352996' status='failed' stop='1633932363153'>
+                    <name>Then validate the Name of user is same as display</name>
+                    <title>Then validate the Name of user is same as display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Expect $(`//span[contains(text(),'Tom')]`) to have text</message>
+                <stack-trace>Error: Expect $(`//span[contains(text(),'Tom')]`) to have text
+                
+                Expected: "Tom Smith"
+                Received: undefined
+                    at World.&lt;anonymous> (C:\Users\Admin\source\repos\Newtest\features\step-definitions\login.steps.ts:54:39)
+                    at step (C:\Users\Admin\source\repos\Newtest\features\step-definitions\login.steps.ts:33:23)
+                    at Object.next (C:\Users\Admin\source\repos\Newtest\features\step-definitions\login.steps.ts:14:53)
+                    at C:\Users\Admin\source\repos\Newtest\features\step-definitions\login.steps.ts:8:71
+                    at new Promise (&lt;anonymous>)
+                    at __awaiter (C:\Users\Admin\source\repos\Newtest\features\step-definitions\login.steps.ts:4:12)
+                    at World.&lt;anonymous> (C:\Users\Admin\source\repos\Newtest\features\step-definitions\login.steps.ts:167:12)
+                    at World.executeAsync (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\shim.js:323:27)
+                    at World.testFrameworkFnWrapper (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

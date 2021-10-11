@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1633935111090' stop='1633935135607'>
+    <name>The Internet automation Website</name>
+    <title>The Internet automation Website</title>
+    <test-cases>
+        <test-case start='1633935111131' status='broken' stop='1633935135593'>
+            <name>As a user, I want to log in</name>
+            <title>As a user, I want to log in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.71'/>
+            </parameters>
+            <steps>
+                <step start='1633935111134' status='passed' stop='1633935121170'>
+                    <name>Given I am on the Home page "http://automationpractice.com/index.php"</name>
+                    <title>Given I am on the Home page "http://automationpractice.com/index.php"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935121170' status='passed' stop='1633935125273'>
+                    <name>And I click on login module</name>
+                    <title>And I click on login module</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935125273' status='passed' stop='1633935125453'>
+                    <name>And I enter valid tom8smith@gmail.com</name>
+                    <title>And I enter valid tom8smith@gmail.com</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935125453' status='passed' stop='1633935125543'>
+                    <name>When I click on create account button</name>
+                    <title>When I click on create account button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935125543' status='broken' stop='1633935135593'>
+                    <name>And I login with Tom, Smith</name>
+                    <title>And I login with Tom, Smith</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935135594' status='canceled' stop='1633935135594'>
+                    <name>And I enter TomSmith, Mumbai and Mumbai</name>
+                    <title>And I enter TomSmith, Mumbai and Mumbai</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935135595' status='canceled' stop='1633935135595'>
+                    <name>And I enter Arizona, 12345, 1234567890, United States</name>
+                    <title>And I enter Arizona, 12345, 1234567890, United States</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935135595' status='canceled' stop='1633935135596'>
+                    <name>And I click on register button</name>
+                    <title>And I click on register button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1633935135596' status='canceled' stop='1633935135596'>
+                    <name>Then validate the Name of user is same as display</name>
+                    <title>Then validate the Name of user is same as display</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "//input[@id='customer_firstname']" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//input[@id='customer_firstname']" because element wasn't found
+                    at Object.implicitWait [as default] (C:\Users\Admin\source\repos\Newtest\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Admin\source\repos\Newtest\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\Admin\source\repos\Newtest\node_modules\@wdio\utils\build\shim.js:131:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

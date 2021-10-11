@@ -1,0 +1,56 @@
+{
+  "uid" : "518914367631b9da",
+  "name" : "",
+  "fullName" : "The Internet automation Website: As a user, I want to log in.",
+  "historyId" : "397543c383a5f9ec7b621796ea7d04ea",
+  "time" : {
+    "start" : 1633926786585,
+    "stop" : 1633926786607,
+    "duration" : 22
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website: As a user, I want to log in"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "518914367631b9da.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}

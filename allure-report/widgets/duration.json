@@ -1,0 +1,121 @@
+[ {
+  "uid" : "eb9b3dafe7ffe7c5",
+  "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+  "time" : {
+    "start" : 1633926786608,
+    "stop" : 1633926799613,
+    "duration" : 13005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca24d798032aeb3",
+  "name" : "And I enter valid tom6smith@gmail.com",
+  "time" : {
+    "start" : 1633926801208,
+    "stop" : 1633926802630,
+    "duration" : 1422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6750cf6321963c29",
+  "name" : "",
+  "time" : {
+    "start" : 1633926809091,
+    "stop" : 1633926809091,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89543b69c953fe58",
+  "name" : "And I login with Tom, Smith",
+  "time" : {
+    "start" : 1633926802738,
+    "stop" : 1633926805517,
+    "duration" : 2779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae0b24cb2eccb1ae",
+  "name" : "And I click on register button",
+  "time" : {
+    "start" : 1633926807014,
+    "stop" : 1633926808985,
+    "duration" : 1971
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "baf2a08e86024520",
+  "name" : "As a user, I want to place order",
+  "time" : {
+    "start" : 1633983533388,
+    "stop" : 1633983550002,
+    "duration" : 16614
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "513a47fb6d0123e3",
+  "name" : "Then validate the Name of user is same as display",
+  "time" : {
+    "start" : 1633926808986,
+    "stop" : 1633926809091,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e889e125bfbd8db0",
+  "name" : "And I enter TomSmith, Mumbai and Mumbai",
+  "time" : {
+    "start" : 1633926805517,
+    "stop" : 1633926806104,
+    "duration" : 587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dad487a63dbc3ee",
+  "name" : "And I enter Arizona, 12345, 1234567890, United States",
+  "time" : {
+    "start" : 1633926806104,
+    "stop" : 1633926807014,
+    "duration" : 910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "408d70718a29d0ce",
+  "name" : "And I click on login module",
+  "time" : {
+    "start" : 1633926799614,
+    "stop" : 1633926801208,
+    "duration" : 1594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2d9b56635383dd5",
+  "name" : "As a user, I want to log in",
+  "time" : {
+    "start" : 1633983515486,
+    "stop" : 1633983533388,
+    "duration" : 17902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "555e69f2c888414",
+  "name" : "When I click on create account button",
+  "time" : {
+    "start" : 1633926802630,
+    "stop" : 1633926802738,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

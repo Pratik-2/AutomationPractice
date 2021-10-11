@@ -1,0 +1,161 @@
+{
+  "uid" : "646e54802f43ab3c",
+  "name" : "As a user, I want to place order",
+  "fullName" : "The Internet automation Website.As a user, I want to place order",
+  "historyId" : "c1afc1e66845a14e346d8a8f59232a4a",
+  "time" : {
+    "start" : 1633954953434,
+    "stop" : 1633954962351,
+    "duration" : 8917
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=94.0.4606.71)\n                Backtrace:\n                \tOrdinal0 [0x00F4BDE3+2473443]\n                \tOrdinal0 [0x00EE6661+2057825]\n                \tOrdinal0 [0x00DF2300+1057536]\n                \tOrdinal0 [0x00E1D567+1234279]\n                \tOrdinal0 [0x00E13567+1193319]\n                \tOrdinal0 [0x00E356E3+1332963]\n                \tOrdinal0 [0x00E13386+1192838]\n                \tOrdinal0 [0x00E357CA+1333194]\n                \tOrdinal0 [0x00E44ABF+1395391]\n                \tOrdinal0 [0x00E355AB+1332651]\n                \tOrdinal0 [0x00E12104+1188100]\n                \tOrdinal0 [0x00E12F59+1191769]\n                \tGetHandleVerifier [0x010D2266+1549718]\n                \tGetHandleVerifier [0x0117D4A7+2250711]\n                \tGetHandleVerifier [0x00FD718B+521403]\n                \tGetHandleVerifier [0x00FD6229+517465]\n                \tOrdinal0 [0x00EEB79D+2078621]\n                \tOrdinal0 [0x00EEFB58+2095960]\n                \tOrdinal0 [0x00EEFC92+2096274]\n                \tOrdinal0 [0x00EF9541+2135361]\n                \tBaseThreadInitThunk [0x7638FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element not interactable",
+    "statusTrace" : "element not interactable\n                  (Session info: chrome=94.0.4606.71)\n                Backtrace:\n                \tOrdinal0 [0x00F4BDE3+2473443]\n                \tOrdinal0 [0x00EE6661+2057825]\n                \tOrdinal0 [0x00DF2300+1057536]\n                \tOrdinal0 [0x00E1D567+1234279]\n                \tOrdinal0 [0x00E13567+1193319]\n                \tOrdinal0 [0x00E356E3+1332963]\n                \tOrdinal0 [0x00E13386+1192838]\n                \tOrdinal0 [0x00E357CA+1333194]\n                \tOrdinal0 [0x00E44ABF+1395391]\n                \tOrdinal0 [0x00E355AB+1332651]\n                \tOrdinal0 [0x00E12104+1188100]\n                \tOrdinal0 [0x00E12F59+1191769]\n                \tGetHandleVerifier [0x010D2266+1549718]\n                \tGetHandleVerifier [0x0117D4A7+2250711]\n                \tGetHandleVerifier [0x00FD718B+521403]\n                \tGetHandleVerifier [0x00FD6229+517465]\n                \tOrdinal0 [0x00EEB79D+2078621]\n                \tOrdinal0 [0x00EEFB58+2095960]\n                \tOrdinal0 [0x00EEFC92+2096274]\n                \tOrdinal0 [0x00EF9541+2135361]\n                \tBaseThreadInitThunk [0x7638FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
+      "time" : {
+        "start" : 1633954953435,
+        "stop" : 1633954957116,
+        "duration" : 3681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given I select product",
+      "time" : {
+        "start" : 1633954957116,
+        "stop" : 1633954962029,
+        "duration" : 4913
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When checking summary proceed",
+      "time" : {
+        "start" : 1633954962030,
+        "stop" : 1633954962351,
+        "duration" : 321
+      },
+      "status" : "broken",
+      "statusMessage" : "element not interactable\n                  (Session info: chrome=94.0.4606.71)\n                Backtrace:\n                \tOrdinal0 [0x00F4BDE3+2473443]\n                \tOrdinal0 [0x00EE6661+2057825]\n                \tOrdinal0 [0x00DF2300+1057536]\n                \tOrdinal0 [0x00E1D567+1234279]\n                \tOrdinal0 [0x00E13567+1193319]\n                \tOrdinal0 [0x00E356E3+1332963]\n                \tOrdinal0 [0x00E13386+1192838]\n                \tOrdinal0 [0x00E357CA+1333194]\n                \tOrdinal0 [0x00E44ABF+1395391]\n                \tOrdinal0 [0x00E355AB+1332651]\n                \tOrdinal0 [0x00E12104+1188100]\n                \tOrdinal0 [0x00E12F59+1191769]\n                \tGetHandleVerifier [0x010D2266+1549718]\n                \tGetHandleVerifier [0x0117D4A7+2250711]\n                \tGetHandleVerifier [0x00FD718B+521403]\n                \tGetHandleVerifier [0x00FD6229+517465]\n                \tOrdinal0 [0x00EEB79D+2078621]\n                \tOrdinal0 [0x00EEFB58+2095960]\n                \tOrdinal0 [0x00EEFC92+2096274]\n                \tOrdinal0 [0x00EF9541+2135361]\n                \tBaseThreadInitThunk [0x7638FA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x77777A6E+238]\n                ",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "And checking address proceed",
+      "time" : {
+        "start" : 1633954962351,
+        "stop" : 1633954962352,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And checking shipping proceed",
+      "time" : {
+        "start" : 1633954962352,
+        "stop" : 1633954962352,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then I validate the product",
+      "time" : {
+        "start" : 1633954962352,
+        "stop" : 1633954962353,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testClass",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "testMethod",
+    "value" : "As a user, I want to place order"
+  }, {
+    "name" : "package",
+    "value" : "The Internet automation Website"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "646e54802f43ab3c.json",
+  "parameterValues" : [ "chrome-94.0.4606.71" ]
+}
