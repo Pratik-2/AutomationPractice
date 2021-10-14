@@ -2,167 +2,33 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "The Internet automation Website: As a user, I want to log in",
-    "children" : [ {
-      "name" : "Given I am on the Home page \"http://automationpractice.com/index.php\"",
-      "uid" : "eb9b3dafe7ffe7c5",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926786608,
-        "stop" : 1633926799613,
-        "duration" : 13005
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "And I click on login module",
-      "uid" : "408d70718a29d0ce",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926799614,
-        "stop" : 1633926801208,
-        "duration" : 1594
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "And I enter valid tom6smith@gmail.com",
-      "uid" : "6ca24d798032aeb3",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926801208,
-        "stop" : 1633926802630,
-        "duration" : 1422
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "When I click on create account button",
-      "uid" : "555e69f2c888414",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926802630,
-        "stop" : 1633926802738,
-        "duration" : 108
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "And I login with Tom, Smith",
-      "uid" : "89543b69c953fe58",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926802738,
-        "stop" : 1633926805517,
-        "duration" : 2779
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "And I enter TomSmith, Mumbai and Mumbai",
-      "uid" : "e889e125bfbd8db0",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926805517,
-        "stop" : 1633926806104,
-        "duration" : 587
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "And I enter Arizona, 12345, 1234567890, United States",
-      "uid" : "1dad487a63dbc3ee",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926806104,
-        "stop" : 1633926807014,
-        "duration" : 910
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "And I click on register button",
-      "uid" : "ae0b24cb2eccb1ae",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926807014,
-        "stop" : 1633926808985,
-        "duration" : 1971
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "Then validate the Name of user is same as display",
-      "uid" : "513a47fb6d0123e3",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926808986,
-        "stop" : 1633926809091,
-        "duration" : 105
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    }, {
-      "name" : "",
-      "uid" : "6750cf6321963c29",
-      "parentUid" : "b822d5af582bf9cb6402436a11f11905",
-      "status" : "passed",
-      "time" : {
-        "start" : 1633926809091,
-        "stop" : 1633926809091,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
-    } ],
-    "uid" : "b822d5af582bf9cb6402436a11f11905"
-  }, {
     "name" : "The Internet automation Website",
     "children" : [ {
       "name" : "As a user, I want to log in",
-      "uid" : "b2d9b56635383dd5",
+      "uid" : "d79300db59d8fc19",
       "parentUid" : "59f182d64d1d9eca3832530c3417206c",
       "status" : "passed",
       "time" : {
-        "start" : 1633983515486,
-        "stop" : 1633983533388,
-        "duration" : 17902
+        "start" : 1634157326671,
+        "stop" : 1634157344195,
+        "duration" : 17524
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
+      "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "As a user, I want to place order",
-      "uid" : "baf2a08e86024520",
+      "uid" : "c3af6e1f8e8e5272",
       "parentUid" : "59f182d64d1d9eca3832530c3417206c",
       "status" : "broken",
       "time" : {
-        "start" : 1633983533388,
-        "stop" : 1633983550002,
-        "duration" : 16614
+        "start" : 1634157344196,
+        "stop" : 1634157360234,
+        "duration" : 16038
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.71" ]
+      "parameters" : [ "chrome-94.0.4606.81" ]
     } ],
     "uid" : "59f182d64d1d9eca3832530c3417206c"
   } ]

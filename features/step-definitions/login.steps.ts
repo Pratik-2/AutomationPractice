@@ -2,6 +2,7 @@ import { Given, When, Then } from '@cucumber/cucumber';
 import signRegister from '../pageobjects/log.page'
 import registerPage from '../pageobjects/register.page'
 
+
 Given(/^I am on the Home page \"([^\"]*)\"$/, async (appurl) =>{
     await browser.url(appurl)
     await browser.maximizeWindow()
@@ -11,22 +12,28 @@ Given(/^I click on login module$/, async () => {
     await signRegister.clkOnSignin()
 });
 
-Given(/^I enter valid (.+)$/, async function (email: string) {
-    await signRegister.enterValidEmail(email)
+/*Given(/^I enter valid (.+)$/, async function (email: string) {*/
+Given(/^I enter valid email$/, async function () {
+        await signRegister.enterValidEmail()
 });
 
 When(/^I click on create account button$/, async function () {
     await signRegister.submCreateButton()
 });
 
-When(/^I login with (.+), (.+)$/, async function (firstname: string, lastname: string) {
-    await registerPage.enterfirsttlastname(firstname, lastname)
+/*When(/^I login with (.+), (.+)$/, async function (firstname: string, lastname: string) {*/
+When(/^I login with firstname lastname$/, async function () {
+        await registerPage.enterfirsttlastname()
 });
-When(/^I enter (.+), (.+) and (.+)$/, async function (password: string, address: string, city: string) {
-    await registerPage.enterPwdAddrCity(password, address, city)
+/*When(/^I enter (.+), (.+) and (.+)$/, async function (password: string, address: string, city: string) {*/
+When(/^I enter password address city$/, async function () {
+
+    await registerPage.enterPwdAddrCity()
     });
 
-When(/^I enter (.+), (.+), (.+), (.+)$/, async function (state: string, zip: string, mobile: string, country: string) {
+/*When(/^I enter (.+), (.+), (.+), (.+)$/, async function (state: string, zip: string, mobile: string, country: string) {*/
+When(/^I enter state zip mobile country$/, async function () {
+
    
    /*for (let i = 0; i < await inputcountry.length; i++) {
         const elem = await (inputcountry[i]).getAttribute(country)
@@ -43,7 +50,9 @@ When(/^I enter (.+), (.+), (.+), (.+)$/, async function (state: string, zip: str
             break;
         }
     }*/
-    await registerPage.enterCountryStateZipMobile(state, zip, mobile, country)
+        /*await registerPage.enterCountryStateZipMobile(state, zip, mobile, country)*/
+        await registerPage.enterCountryStateZipMobile()
+
 });
 
 When(/^I click on register button$/, async function () {

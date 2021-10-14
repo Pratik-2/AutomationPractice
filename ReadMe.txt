@@ -19,3 +19,5 @@ or
     },
     followed by command : npm run report
 
+    https://github.com/Pratik-2/AutomationPractice.git
+

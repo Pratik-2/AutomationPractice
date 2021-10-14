@@ -1,0 +1,11 @@
+{
+  "firstname": "Tom",
+  "lastname": "Smith",
+  "password": "TomSmith",
+  "address": "Mumbai",
+  "city": "Mumbai",
+  "state": "Arizona",
+  "zip": "12345",
+  "mobile": "1234567890",
+  "country": "United States"
+}

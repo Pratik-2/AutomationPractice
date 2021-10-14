@@ -1,3 +1,4 @@
+import Testdata from '../resources/tesdata.json'
 class registerPage {
     get inputfirstname() { return $("//input[@id='customer_firstname']") }
     get inputlastname() { return $("//input[@id='customer_lastname']") }
@@ -11,22 +12,26 @@ class registerPage {
     get subbutn() { return $("//button[@id='submitAccount']") }
     get header() { return $("//span[contains(text(),'Tom')]") }
 
-    async enterfirsttlastname(firstname: string, lastname: string) {
-        await this.inputfirstname.setValue(firstname)
-        await this.inputlastname.setValue(lastname)
+    /*async enterfirsttlastname(firstname: string, lastname: string) {*/
+        async enterfirsttlastname() {
+        await this.inputfirstname.setValue(Testdata.firstname)
+        await this.inputlastname.setValue(Testdata.lastname)
     }
 
-    async enterPwdAddrCity(password: string, address: string, city: string) {
-        await this.inputpassword.setValue(password)
-        await this.inputaddress.setValue(address)
-        await this.inputcity.setValue(city)
+    /*async enterPwdAddrCity(password: string, address: string, city: string) {*/
+        async enterPwdAddrCity() {
+        await this.inputpassword.setValue(Testdata.password)
+        await this.inputaddress.setValue(Testdata.address)
+        await this.inputcity.setValue(Testdata.city)
     }
 
-    async enterCountryStateZipMobile(state: string, zip: string, mobile: string, country: string) {
-        await this.inputcountry.selectByVisibleText(country)
-        await this.inputstate.selectByVisibleText(state)
-        await this.inputzip.setValue(zip)
-        await this.inputmobile.setValue(mobile)
+   /* async enterCountryStateZipMobile(state: string, zip: string, mobile: string, country: string) {*/
+        async enterCountryStateZipMobile() {
+
+        await this.inputcountry.selectByVisibleText(Testdata.country)
+        await this.inputstate.selectByVisibleText(Testdata.state)
+            await this.inputzip.setValue(Testdata.zip)
+            await this.inputmobile.setValue(Testdata.mobile)
     }
 
     async submitCreateAcc() {

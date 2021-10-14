@@ -1,3 +1,4 @@
+import Faker = require('faker')
 class signRegister {
 
     get signinButton() { return $("//a[contains(text(),'Sign in')]") }
@@ -8,7 +9,10 @@ class signRegister {
     async clkOnSignin() {
         await this.signinButton.click()
     }
-    async enterValidEmail(email: string) {
+   /* async enterValidEmail(email: string) {*/
+        async enterValidEmail() {
+       
+         var  email= Faker.internet.email()
         await this.emailenter.setValue(email)
     }
     async submCreateButton() {
